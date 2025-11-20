@@ -41,14 +41,14 @@ export default function ScrollRevealFM() {
           <span>After</span>
         </div>
         <motion.img
-          src="/badteeth.png"
+          src="/badTeeth.png"
           className="absolute w-full h-full object-cover"
           style={{ clipPath: leftClip }}
         />
 
         {/* Right image */}
         <motion.img
-          src="/goodteeth.jpg"
+          src="/goodTeeth.jpg"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ clipPath: rightClip }}
         />
