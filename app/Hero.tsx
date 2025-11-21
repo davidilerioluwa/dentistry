@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-screen relative">
+    <div className="w-screen h-screen fixed">
       <div className="absolute w-screen h-screen bg-black/40 top-0 pt-10 flex flex-col gap-5 text-white justify-center items-center">
         <h1 className="text-7xl w-3/5 text-center">
           AWARDED AS THE BEST DENTAL CLINIC IN INDIA
