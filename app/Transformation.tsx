@@ -27,8 +27,8 @@ export default function ScrollRevealFM() {
   const rightClip = useMotionTemplate`inset(0 0 0 ${inversePercent}%)`;
 
   return (
-    <div className="px-20 pb-10 bg-yellow-50 bg-white">
-      <div className="text-5xl py-10 w-1/2 mx-auto text-center text-yellow-500 ">
+    <div className="px-20 pb-10 bg-yellow-50">
+      <div className="text-5xl py-10 w-1/2 mx-auto text-center text-yellow-600 ">
         TRANSFORMATIONS THAT WILL BLOW YOUR MIND
       </div>
       <div

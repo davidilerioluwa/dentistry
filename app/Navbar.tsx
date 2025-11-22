@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex gap-4 items-center">
           <span>Home</span>
           <span>About</span>
-          <button className="bg-yellow-600 text-white py-2.5 px-5 rounded-lg">
+          <button className="bg-yellow-600 text-white py-2.5 px-5 rounded-lg cursor-pointer">
             Get a Consult
           </button>
         </div>

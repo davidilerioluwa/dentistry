@@ -3,9 +3,9 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-screen fixed">
+    <div className="w-screen max-h-screen overflow-y-hidden h-screen fixed top-0 z-10">
       <div className="absolute w-screen h-screen bg-black/40 top-0 pt-10 flex flex-col gap-5 text-white justify-center items-center">
-        <h1 className="text-7xl w-3/5 text-center">
+        <h1 className="lg:text-7xl w-3/5 text-center">
           AWARDED AS THE BEST DENTAL CLINIC IN INDIA
         </h1>
         <div className="flex gap-4">
