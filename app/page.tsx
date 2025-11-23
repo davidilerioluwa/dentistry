@@ -6,13 +6,13 @@ import Transformation from "./Transformation";
 import WhyChooseUs from "./WhyChooseUs";
 export default function Home() {
   return (
-    <div className="">
+    <div className="relative">
       <Navbar />
       <Hero />
       <div className="mt-[100vh] relative z-10">
-        <ShowCase />
         <WhyChooseUs />
-        <Transformation />
+        <ShowCase />
+        {/* <Transformation /> */}
         <Stats />
       </div>
     </div>

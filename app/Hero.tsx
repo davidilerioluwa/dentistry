@@ -3,8 +3,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-screen max-h-screen overflow-y-hidden h-screen fixed top-0 z-10">
-      <div className="absolute w-screen h-screen bg-black/40 top-0 pt-10 flex flex-col gap-5 text-white justify-center items-center">
+    <div className="  w-full h-screen fixed top-0 z-10">
+      <div className="absolute w-full h-screen bg-black/40 top-0 pt-10 flex flex-col gap-5 text-white justify-center items-center">
         <h1 className="lg:text-7xl w-3/5 text-center">
           AWARDED AS THE BEST DENTAL CLINIC IN INDIA
         </h1>
@@ -27,7 +27,7 @@ const Hero = () => {
           eveniet cumque molestiae natus ratione. Debitis iure hic cum omnis.
         </p>
       </div>
-      <img className="w-screen h-screen object-cover" src={"dentist.jpg"} />
+      <img className="w-full h-screen object-cover" src={"dentist.jpg"} />
     </div>
   );
 };

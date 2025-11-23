@@ -1,7 +1,7 @@
 import React from "react";
 
 const Stats = () => {
-  return <div className="bg-yellow-600 h-screen w-screen">Stats</div>;
+  return <div className="w-full h-screen bg-yellow-600">Stats</div>;
 };
 
 export default Stats;

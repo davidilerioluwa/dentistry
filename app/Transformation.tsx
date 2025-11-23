@@ -28,7 +28,7 @@ export default function ScrollRevealFM() {
 
   return (
     <div className="px-20 pb-10 bg-yellow-50">
-      <div className="text-5xl py-10 w-1/2 mx-auto text-center text-yellow-600 ">
+      <div className="lg:text-5xl py-10 w-1/2 mx-auto text-center text-yellow-600 ">
         TRANSFORMATIONS THAT WILL BLOW YOUR MIND
       </div>
       <div
