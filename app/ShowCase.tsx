@@ -54,7 +54,7 @@ const ShowCasePin = () => {
               className="w-[500px] rounded-lg aspect-[3/2] object-cover"
               alt="Dentist"
             />
-            <div className="bg-gray-600/5 text-center backdrop-blur-sm border border-yellow-600/60 rounded-lg flex items-center justify-center font-bold text-white w-[500px] p-6">
+            <div className="bg-black/5 text-center backdrop-blur-sm border border-yellow-600/60 rounded-lg flex items-center justify-center font-bold text-white w-[500px] p-6">
               <span className="text-center">
                 BEST DENTAL CLINIC IN INDIA 2021
               </span>
